@@ -1,0 +1,28 @@
+#header {
+	width: 600px;
+	margin: auto;
+}
+
+#wrapper {
+	width:600px;
+	height:600px;
+	margin:20px auto;
+	background-color: #F0F0F0;
+}
+
+.rows {
+	width: 600px;
+}
+
+.block {
+	display: block;
+	float: left;
+}
+
+.block:hover {
+	background-color: red;
+}
+
+.highlight {
+	background-color: #000;
+}
