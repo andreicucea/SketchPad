@@ -20,8 +20,8 @@ function gradientSketch() {
 	$('.block').mouseenter(function() {
 		var opacityNow = $(this).css('opacity');
 		if (opacityNow < 1) {
-			$(this).css({'opacity' : opacityNow += 0.2});
-		};
+			$(this).css({'opacity' : +opacityNow + 0.1});
+		} else {$(this).css({'opacity' : 0})};
 //		window.alert(opacityNow);
 	});
 };
